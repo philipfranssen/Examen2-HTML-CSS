@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen HTML & CSS</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__nav">
+        <span class="logo">logo</span>
+
+        <nav class="nav">
+          <a href="#last-spots">Laatste plaatsen</a>
+          <a href="#top-locations">Onze top locaties</a>
+          <a href="#spotlight">In de spotlight</a>
+        </nav>
+
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="hero__content">
+          <img
+            class="hero__img"
+            src="img/world.png"
+            alt="random locations pinned on the world"
+          />
+          <h1 id="hero__title">Digitravels</h1>
+          <p id="hero__description">Reizen voor nerdlanders</p>
+        </div>
+      </div>
+    </header>
+
+    <section id="last-spots">
+      <h2 class="section__title">Laatste plaatsen</h2>
+      <div class="last-spots__cards">
+        <div class="spot-card">
+          <div class="spot-card__image lochawe"></div>
+          <p>LOCHAWE, SCOTLAND</p>
+        </div>
+        <div class="spot-card">
+          <div class="spot-card__image porto"></div>
+          <p>PORTO, PORTUGAL</p>
+        </div>
+        <div class="spot-card">
+          <div class="spot-card__image aljezur"></div>
+          <p>ALJEZUR, PORTUGAL</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="top-locations">
+      <h2 class="section__title">Onze top locaties</h2>
+      <div class="top-locations__items">
+        <div class="location-item">
+          <div class="location-item__image athene"></div>
+          <p>ATHENE, GRIEKENLAND</p>
+        </div>
+        <div class="location-item">
+          <div class="location-item__image bali"></div>
+          <p>BALI, INDONESIË</p>
+        </div>
+        <div class="location-item">
+          <div class="location-item__image barcelona"></div>
+          <p>BARCELONA, SPANJE</p>
+        </div>
+        <div class="location-item">
+          <div class="location-item__image budapest"></div>
+          <p>BUDAPEST, HONGARIJE</p>
+        </div>
+        <div class="location-item">
+          <div class="location-item__image dublin"></div>
+          <p>DUBLIN, IERLAND</p>
+        </div>
+        <div class="location-item">
+          <div class="location-item__image dubrovnik"></div>
+          <p>DUBROVNIK, KROATIË</p>
+        </div>
+        <div class="location-item">
+          <div class="location-item__image edinburgh"></div>
+          <p>EDINBURGH, SCHOTLAND</p>
+        </div>
+        <div class="location-item">
+          <div class="location-item__image garda"></div>
+          <p>GARDA, ITALIË</p>
+        </div>
+        <div class="location-item">
+          <div class="location-item__image manarola"></div>
+          <p>MANAROLA, ITALIË</p>
+        </div>
+        <div class="location-item">
+          <div class="location-item__image parijs"></div>
+          <p>PARIJS, FRANKRIJK</p>
+        </div>
+        <div class="location-item">
+          <div class="location-item__image san-francisco"></div>
+          <p>SAN FRANCISCO, CALIFORNIË</p>
+        </div>
+        <div class="other-locations">
+          <p>Bekijk andere locaties</p>
+          <div class="icon">
+            <div class="arrow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="spotlight">
+      <h2 class="section__title">Naples in the spotlight</h2>
+      <div class="spotlight">
+        <h3>City of Naples</h3>
+        <article class="spotlight__article-1">
+          <div class="spotlight__image test naples-1"></div>
+          <div class="spotlight__image naples-2"></div>
+          <div class="spotlight__image naples-3"></div>
+          <div class="spotlight__text">
+            <p>
+              The city of Naples offers a wide range of historical buildings. On
+              the way there, the tiny streets are exactly like in the movies. On
+              top of that you'll find many places for a refreshing drink.
+            </p>
+          </div>
+        </article>
+        <h3>Views</h3>
+        <article class="spotlight__article-2">
+          <div class="spotlight__image naples-4"></div>
+          <div class="spotlight__image naples-5"></div>
+          <div class="spotlight__image naples-6"></div>
+          <div class="spotlight__text">
+            <p>
+              In several places you'll have a beautiful view of the whole city.
+              Mount Vesuvius as well as the harbour are two things you
+              definitely must see. Enjoy and don't forget your camera!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__details">
+        <p>Examen front-end development avondonderwijs</p>
+        <p>2020 - 2021</p>
+        <p>HTML & CSS Advanced</p>
+        <p>Rune Devuyst</p>
+      </div>
+    </footer>
+  </body>
+</html>
